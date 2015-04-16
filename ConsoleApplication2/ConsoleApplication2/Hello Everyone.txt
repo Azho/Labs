@@ -1,0 +1,29 @@
+﻿.NET Framwork Class Library
+  - A bunch of premade classes. 
+  - Unified system of types.
+  - Main documentation: A namespace is a category for a class, not a class.
+
+  Structure vs class?
+  Entity Framework?
+  Static (File Class) vs. Instance Method (File Info Class)
+  System.Web holds almost all the tech for ASP.NET
+
+.NET Common Language Runtime
+  - The Virtual Machine (wth is this)
+  - Managed: Code gets compiled into Intermediate Language (IL) code that can be run on many different platforms. .NET Framework understands IL only, and everything is compiled into IL during runtime.
+  - Automatic garbage collection: .NET takes care of cleaning the memory for you. You don't have to worry about memory leaks as much. A boon of managed code.
+  - Verifiably Type Safe: verifies that you're not accessing memories you're not supposed to be accessing. Makes sure you don't use the wrong data type.
+  - JIT (Just In Time) Compilation: 
+
+
+  C# Background
+  - Anders Hejlsberg, creator of C#
+  - Statically Typed Languages: C#, Java, VB.NET, Pascal...: Statically typed languages must be defined up front. Good for tooling? Intellisense?
+  - Dynamic Languages: Javascript, Ruby, Scheme, Groovy...: Can do anything? Not good for tooling.
+  - LOOK UP STATICALLY TYPED VS DYNAMIC LANGUAGES. AND INTELLISENSE.
+
+  C# Info:
+  - Case sensitive.
+  - Semicolon at the end of every line.
+  - Everything is lowercase, keywords are lowercase. 
+  - Pascal Casing (.NET) - Random.GetNextNumber();  |  Camel Casing (Javascript) - getNextNumber();  |  Lower Case (C#) - foreach; 

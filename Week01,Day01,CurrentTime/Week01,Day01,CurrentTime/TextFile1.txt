@@ -1,0 +1,26 @@
+﻿ ///Data Types: bool, char, decimal, double, float, int(shorthand for Int32), long, object, short, string
+            ///.NET Types: Boolean, Char, Decimal, Double, Single, Int32(not a short), Int64(long), Object, Int16, String
+               // int unitsInStock = 3; C# alias for Int32 structure.
+               // var unitsInStock = 3; Inferring the type from the literal value.
+               // Int32 unitsInStock = 3; Class name
+            //Converting:
+               //Convert class, Int32.Parse(), ToString()
+
+               //3 different types of numbers you can work with:
+                  //Integers = int, long, short ==> 23, -76;
+                  //float, double = 23.56, 78.5688;  Uses floating point to store. LOOK THIS UP WHAT THE HELL. Handles larger numbers at the cost of precision. 
+                  //decimal = 87,65, 23.44; Use decimals for price amount because they are guaranteed to be precise.
+            
+              //Char: 1 character
+
+              //String/string: 
+
+
+Conversion:
+
+ToString()
+i.e. Console.WriteLine(thing.ToString());
+- The Object Class is something all other classes are derived from. Things true of object are true for every other class under it, so ToString (which is part of Object Class) can convert anything to a string representation of itself.
+
+
+
